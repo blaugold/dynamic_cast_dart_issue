@@ -1,14 +1,5 @@
 #include <iostream>
 
-class A
-{
-    virtual void a() {}
-};
-
-class B : public A
-{
-};
-
 extern "C"
 {
     void throwException()
